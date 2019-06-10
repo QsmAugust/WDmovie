@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC6AFA5D22ADF95700753488 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6AFA5C22ADF95700753488 /* AppDelegate.m */; };
+		EC6AFA6022ADF95700753488 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6AFA5F22ADF95700753488 /* ViewController.m */; };
+		EC6AFA6322ADF95700753488 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC6AFA6122ADF95700753488 /* Main.storyboard */; };
+		EC6AFA6622ADF95700753488 /* WDmovies.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC6AFA6422ADF95700753488 /* WDmovies.xcdatamodeld */; };
+		EC6AFA6822ADF95B00753488 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC6AFA6722ADF95B00753488 /* Assets.xcassets */; };
+		EC6AFA6B22ADF95B00753488 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC6AFA6922ADF95B00753488 /* LaunchScreen.storyboard */; };
+		EC6AFA6E22ADF95B00753488 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6AFA6D22ADF95B00753488 /* main.m */; };
+		EC6AFA7822ADF95B00753488 /* WDmoviesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6AFA7722ADF95B00753488 /* WDmoviesTests.m */; };
+		EC6AFA8322ADF95B00753488 /* WDmoviesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6AFA8222ADF95B00753488 /* WDmoviesUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC6AFA7422ADF95B00753488 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC6AFA5022ADF95700753488 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC6AFA5722ADF95700753488;
+			remoteInfo = WDmovies;
+		};
+		EC6AFA7F22ADF95B00753488 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC6AFA5022ADF95700753488 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC6AFA5722ADF95700753488;
+			remoteInfo = WDmovies;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC6AFA5822ADF95700753488 /* WDmovies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WDmovies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC6AFA5B22ADF95700753488 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC6AFA5C22ADF95700753488 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC6AFA5E22ADF95700753488 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC6AFA5F22ADF95700753488 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC6AFA6222ADF95700753488 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC6AFA6522ADF95700753488 /* WDmovies.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WDmovies.xcdatamodel; sourceTree = "<group>"; };
+		EC6AFA6722ADF95B00753488 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC6AFA6A22ADF95B00753488 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC6AFA6C22ADF95B00753488 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC6AFA6D22ADF95B00753488 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC6AFA7322ADF95B00753488 /* WDmoviesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WDmoviesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC6AFA7722ADF95B00753488 /* WDmoviesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDmoviesTests.m; sourceTree = "<group>"; };
+		EC6AFA7922ADF95B00753488 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC6AFA7E22ADF95B00753488 /* WDmoviesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WDmoviesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC6AFA8222ADF95B00753488 /* WDmoviesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDmoviesUITests.m; sourceTree = "<group>"; };
+		EC6AFA8422ADF95B00753488 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC6AFA5522ADF95700753488 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6AFA7022ADF95B00753488 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6AFA7B22ADF95B00753488 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC6AFA4F22ADF95700753488 = {
+			isa = PBXGroup;
+			children = (
+				EC6AFA5A22ADF95700753488 /* WDmovies */,
+				EC6AFA7622ADF95B00753488 /* WDmoviesTests */,
+				EC6AFA8122ADF95B00753488 /* WDmoviesUITests */,
+				EC6AFA5922ADF95700753488 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC6AFA5922ADF95700753488 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC6AFA5822ADF95700753488 /* WDmovies.app */,
+				EC6AFA7322ADF95B00753488 /* WDmoviesTests.xctest */,
+				EC6AFA7E22ADF95B00753488 /* WDmoviesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC6AFA5A22ADF95700753488 /* WDmovies */ = {
+			isa = PBXGroup;
+			children = (
+				EC6AFA5B22ADF95700753488 /* AppDelegate.h */,
+				EC6AFA5C22ADF95700753488 /* AppDelegate.m */,
+				EC6AFA5E22ADF95700753488 /* ViewController.h */,
+				EC6AFA5F22ADF95700753488 /* ViewController.m */,
+				EC6AFA6122ADF95700753488 /* Main.storyboard */,
+				EC6AFA6722ADF95B00753488 /* Assets.xcassets */,
+				EC6AFA6922ADF95B00753488 /* LaunchScreen.storyboard */,
+				EC6AFA6C22ADF95B00753488 /* Info.plist */,
+				EC6AFA6D22ADF95B00753488 /* main.m */,
+				EC6AFA6422ADF95700753488 /* WDmovies.xcdatamodeld */,
+			);
+			path = WDmovies;
+			sourceTree = "<group>";
+		};
+		EC6AFA7622ADF95B00753488 /* WDmoviesTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC6AFA7722ADF95B00753488 /* WDmoviesTests.m */,
+				EC6AFA7922ADF95B00753488 /* Info.plist */,
+			);
+			path = WDmoviesTests;
+			sourceTree = "<group>";
+		};
+		EC6AFA8122ADF95B00753488 /* WDmoviesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC6AFA8222ADF95B00753488 /* WDmoviesUITests.m */,
+				EC6AFA8422ADF95B00753488 /* Info.plist */,
+			);
+			path = WDmoviesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC6AFA5722ADF95700753488 /* WDmovies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC6AFA8722ADF95B00753488 /* Build configuration list for PBXNativeTarget "WDmovies" */;
+			buildPhases = (
+				EC6AFA5422ADF95700753488 /* Sources */,
+				EC6AFA5522ADF95700753488 /* Frameworks */,
+				EC6AFA5622ADF95700753488 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WDmovies;
+			productName = WDmovies;
+			productReference = EC6AFA5822ADF95700753488 /* WDmovies.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC6AFA7222ADF95B00753488 /* WDmoviesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC6AFA8A22ADF95B00753488 /* Build configuration list for PBXNativeTarget "WDmoviesTests" */;
+			buildPhases = (
+				EC6AFA6F22ADF95B00753488 /* Sources */,
+				EC6AFA7022ADF95B00753488 /* Frameworks */,
+				EC6AFA7122ADF95B00753488 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC6AFA7522ADF95B00753488 /* PBXTargetDependency */,
+			);
+			name = WDmoviesTests;
+			productName = WDmoviesTests;
+			productReference = EC6AFA7322ADF95B00753488 /* WDmoviesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC6AFA7D22ADF95B00753488 /* WDmoviesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC6AFA8D22ADF95B00753488 /* Build configuration list for PBXNativeTarget "WDmoviesUITests" */;
+			buildPhases = (
+				EC6AFA7A22ADF95B00753488 /* Sources */,
+				EC6AFA7B22ADF95B00753488 /* Frameworks */,
+				EC6AFA7C22ADF95B00753488 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC6AFA8022ADF95B00753488 /* PBXTargetDependency */,
+			);
+			name = WDmoviesUITests;
+			productName = WDmoviesUITests;
+			productReference = EC6AFA7E22ADF95B00753488 /* WDmoviesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC6AFA5022ADF95700753488 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = " 小仙女";
+				TargetAttributes = {
+					EC6AFA5722ADF95700753488 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					EC6AFA7222ADF95B00753488 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = EC6AFA5722ADF95700753488;
+					};
+					EC6AFA7D22ADF95B00753488 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = EC6AFA5722ADF95700753488;
+					};
+				};
+			};
+			buildConfigurationList = EC6AFA5322ADF95700753488 /* Build configuration list for PBXProject "WDmovies" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC6AFA4F22ADF95700753488;
+			productRefGroup = EC6AFA5922ADF95700753488 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC6AFA5722ADF95700753488 /* WDmovies */,
+				EC6AFA7222ADF95B00753488 /* WDmoviesTests */,
+				EC6AFA7D22ADF95B00753488 /* WDmoviesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC6AFA5622ADF95700753488 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6AFA6B22ADF95B00753488 /* LaunchScreen.storyboard in Resources */,
+				EC6AFA6822ADF95B00753488 /* Assets.xcassets in Resources */,
+				EC6AFA6322ADF95700753488 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6AFA7122ADF95B00753488 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6AFA7C22ADF95B00753488 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC6AFA5422ADF95700753488 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6AFA6622ADF95700753488 /* WDmovies.xcdatamodeld in Sources */,
+				EC6AFA6022ADF95700753488 /* ViewController.m in Sources */,
+				EC6AFA6E22ADF95B00753488 /* main.m in Sources */,
+				EC6AFA5D22ADF95700753488 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6AFA6F22ADF95B00753488 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6AFA7822ADF95B00753488 /* WDmoviesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6AFA7A22ADF95B00753488 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6AFA8322ADF95B00753488 /* WDmoviesUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC6AFA7522ADF95B00753488 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC6AFA5722ADF95700753488 /* WDmovies */;
+			targetProxy = EC6AFA7422ADF95B00753488 /* PBXContainerItemProxy */;
+		};
+		EC6AFA8022ADF95B00753488 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC6AFA5722ADF95700753488 /* WDmovies */;
+			targetProxy = EC6AFA7F22ADF95B00753488 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC6AFA6122ADF95700753488 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC6AFA6222ADF95700753488 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC6AFA6922ADF95B00753488 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC6AFA6A22ADF95B00753488 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC6AFA8522ADF95B00753488 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC6AFA8622ADF95B00753488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC6AFA8822ADF95B00753488 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WDmovies/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bw.WDmovies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC6AFA8922ADF95B00753488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WDmovies/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bw.WDmovies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC6AFA8B22ADF95B00753488 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WDmoviesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bw.WDmoviesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WDmovies.app/WDmovies";
+			};
+			name = Debug;
+		};
+		EC6AFA8C22ADF95B00753488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WDmoviesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bw.WDmoviesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WDmovies.app/WDmovies";
+			};
+			name = Release;
+		};
+		EC6AFA8E22ADF95B00753488 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WDmoviesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bw.WDmoviesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WDmovies;
+			};
+			name = Debug;
+		};
+		EC6AFA8F22ADF95B00753488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WDmoviesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bw.WDmoviesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WDmovies;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC6AFA5322ADF95700753488 /* Build configuration list for PBXProject "WDmovies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6AFA8522ADF95B00753488 /* Debug */,
+				EC6AFA8622ADF95B00753488 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC6AFA8722ADF95B00753488 /* Build configuration list for PBXNativeTarget "WDmovies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6AFA8822ADF95B00753488 /* Debug */,
+				EC6AFA8922ADF95B00753488 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC6AFA8A22ADF95B00753488 /* Build configuration list for PBXNativeTarget "WDmoviesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6AFA8B22ADF95B00753488 /* Debug */,
+				EC6AFA8C22ADF95B00753488 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC6AFA8D22ADF95B00753488 /* Build configuration list for PBXNativeTarget "WDmoviesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6AFA8E22ADF95B00753488 /* Debug */,
+				EC6AFA8F22ADF95B00753488 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EC6AFA6422ADF95700753488 /* WDmovies.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EC6AFA6522ADF95700753488 /* WDmovies.xcdatamodel */,
+			);
+			currentVersion = EC6AFA6522ADF95700753488 /* WDmovies.xcdatamodel */;
+			path = WDmovies.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EC6AFA5022ADF95700753488 /* Project object */;
+}
